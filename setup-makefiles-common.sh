@@ -26,4 +26,4 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 LINEAGE_ROOT="${MY_DIR}"/../../..
 
-"${LINEAGE_ROOT}/device/${VENDOR}/Jelly2/setup-makefiles-common.sh"
+"${LINEAGE_ROOT}/device/${VENDOR}/Jelly2/setup-makefiles.sh"

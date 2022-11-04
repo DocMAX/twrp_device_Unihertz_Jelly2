@@ -25,4 +25,4 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 LINEAGE_ROOT="${MY_DIR}"/../../..
 
-"${LINEAGE_ROOT}/device/${VENDOR}/Jelly2/extract-files.sh" "$@"
+"${LINEAGE_ROOT}/device/${VENDOR}/Jelly2/extract-files-common.sh" "$@"
