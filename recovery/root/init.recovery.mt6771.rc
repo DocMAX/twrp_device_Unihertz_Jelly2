@@ -41,10 +41,10 @@ on post-fs
     symlink /dev/block/by-name/preloader_a /dev/block/by-name/preloader_ufs_a
     symlink /dev/block/by-name/preloader_b /dev/block/by-name/preloader_ufs_b
    
-on property:hwservicemanager.ready=true
-    start teed
-    start vendor.keymaster-4-0-trustkernel
-    start vendor.gatekeeper-1-0
+#on property:hwservicemanager.ready=true
+#    start teed
+#    start vendor.keymaster-4-0-trustkernel
+#    start vendor.gatekeeper-1-0
 #     start keymaster_attestation-1-1
     
 on property:ro.crypto.state=unsupported
