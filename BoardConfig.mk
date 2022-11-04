@@ -8,7 +8,7 @@
 DEVICE_REGION_PATH := device/Unihertz/Jelly2
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := g63v71c2k_dfl_tee
+TARGET_BOOTLOADER_BOARD_NAME := g55v71c2k_dfl_tee
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_REGION_PATH)/prebuilt/recovery/Image.gz
