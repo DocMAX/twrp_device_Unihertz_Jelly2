@@ -18,16 +18,16 @@ service erase_para /system/bin/dd if=/dev/zero of=/dev/block/by-name/para
     user root
     group root
     disabled
-    oneshot    
+    oneshot
     seclabel u:r:recovery:s0
-    
+
 service trustkernel.twrp /vendor/bin/trustkernel.twrp.sh
     user root
     group system
     disabled
     oneshot
-    seclabel u:r:recovery:s0    
-    
+    seclabel u:r:recovery:s0
+
 on early-fs
     start trustkernel.twrp
 
